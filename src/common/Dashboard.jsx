@@ -1,5 +1,5 @@
 import React from "react";
-// import About from "../components/About";
+import About from "../components/About";
 // import Contact from "../components/Contact";
 // import Experience from "../components/Experience";
 // import Footer from "./Footer";
@@ -7,17 +7,16 @@ import React from "react";
 import Navbar from "../common/NavBar";
 import Splash from "../components/Splash";
 
-//shorthand function
 export default function Dashboard() {
   return (
     <div>
       <Navbar />
       <Splash />
-      {/* <About />
-      <Experience />
+      <About />
+      {/* <Experience />
       <Skills />
       <Contact />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }
