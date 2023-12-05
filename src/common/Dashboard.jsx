@@ -1,22 +1,22 @@
 import React from "react";
-import About from "../components/About";
-// import Contact from "../components/Contact";
-// import Experience from "../components/Experience";
 // import Footer from "./Footer";
-// import Skills from "../components/Skills";
 import Navbar from "../common/NavBar";
 import Splash from "../components/Splash";
+import GridImages from "../components/GridImages";
+import AboutUs from "../components/AboutUs.Jsx";
+import Services from "../components/Services";
+import Footer from "./Footer";
+// import ContactUs from "../components/ContactUs";
 
 export default function Dashboard() {
   return (
     <div>
       <Navbar />
       <Splash />
-      <About />
-      {/* <Experience />
-      <Skills />
-      <Contact />
-      <Footer />  */}
+      <GridImages />
+      <AboutUs />
+      <Services />
+      <Footer />
     </div>
   );
 }

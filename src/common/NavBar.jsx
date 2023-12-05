@@ -7,13 +7,9 @@ function NavBar() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const scrollThreshold = 100;
+      const scrollThreshold = 50;
 
-      if (scrollPosition > scrollThreshold) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(scrollPosition > scrollThreshold);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -29,29 +25,21 @@ function NavBar() {
 
   return (
     <nav
-      className={`${
-        isScrolled ? "bg-white dark:bg-gray-900" : "bg-transparent"
-      } fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 transition-all duration-300 ease-in-out`}
+      className={`fixed w-full z-20 top-0 start-0   transition-opacity duration-300 ease-in-out`}
+      style={{ opacity: isScrolled ? 0 : 1 }}
     >
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4 bg-[#034752] opacity-15">
         <a
           href="https://flowbite.com/"
           rel="noopener noreferrer"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="flex items-center space-x-2 rtl:space-x-reverse"
         >
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Travel
-          </span>
+          <img src="1.png" className="h-20" alt="Nomad Logo" />
         </a>
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-20">
           <button
             type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white  font-medium rounded-lg text-sm px-4 py-2 text-center bg-[#D47863]  hover:bg-opacity-90"
           >
             Contact Us
           </button>
@@ -90,34 +78,34 @@ function NavBar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white-500 md:hover:text-gray-900"
+                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white md:hover:text-gray-900 pr-10"
                 aria-current="page"
               >
-                Home
+                HOME
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white-500 md:hover:text-gray-900"
+                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white md:hover:text-gray-900"
               >
-                About Us
+                ABOUT US
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white-500 md:hover:text-gray-900"
+                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white md:hover:text-gray-900"
               >
-                Services
+                SERVICES
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white-500 md:hover:text-gray-900"
+                className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white md:hover:text-gray-900"
               >
-                Blog
+                BLOG
               </a>
             </li>
           </ul>
