@@ -15,8 +15,8 @@ export default function Dashboard() {
       <Navbar />
       <Splash />
       <GridImages />
-      <About />
       <TopTravelPlaces />
+      <About />
       <Footer />
     </div>
   );

@@ -15,9 +15,9 @@ function AboutUs() {
         style={{ mixBlendMode: "multiply" }} // Adjust mixBlendMode as needed
       ></div>
 
-      <div className="container mx-auto p-8 max-w-2xl relative">
-        <h1 className="text-4xl font-extrabold mb-6 text-white text-left">
-          Welcome to Our Journey!
+      <div className="container mx-auto p-8 max-w-2xl relative pt-20">
+        <h1 className="text-4xl font-extrabold mb-6 text-white text-center">
+          OUR JOURNEY
         </h1>
         <p className="text-white font-semibold text-left">
           Embark on an extraordinary adventure with us. We craft unique
