@@ -50,7 +50,7 @@ const TopTravelPlaces = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <h2 className="text-4xl font-bold  text-center mb-10">
+      <h2 className="text-4xl font-bold  text-center mb-10 uppercase">
         Top Travel Places
       </h2>
       <div className="flex flex-wrap">
