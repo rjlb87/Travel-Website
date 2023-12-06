@@ -39,7 +39,7 @@ function NavBar() {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-20">
           <button
             type="button"
-            className="text-white  font-medium rounded-lg text-sm px-4 py-2 text-center bg-[#3b9b8e]  hover:bg-opacity-90"
+            className="text-white  font-medium  text-sm px-4 py-2 text-center bg-[#3b9b8e]  hover:bg-opacity-90"
           >
             Contact Us
           </button>
