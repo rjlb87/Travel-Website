@@ -5,7 +5,8 @@ import Splash from "../components/Splash";
 import GridImages from "../components/GridImages";
 import Footer from "./Footer";
 import TopTravelPlaces from "../components/TopTravelPlaces";
-import AboutUs from "../components/AboutUs.Jsx";
+import About from "../components/About";
+
 // import ContactUs from "../components/ContactUs";
 
 export default function Dashboard() {
@@ -14,7 +15,7 @@ export default function Dashboard() {
       <Navbar />
       <Splash />
       <GridImages />
-      <AboutUs />
+      <About />
       <TopTravelPlaces />
       <Footer />
     </div>
