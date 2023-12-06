@@ -31,7 +31,7 @@ function TravelServiceSection() {
         {travelServices.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-6 bg-[#D47863] rounded-lg"
+            className="flex flex-col items-center p-6 bg-[#1f7b89] rounded-lg"
           >
             <span className="text-3xl mb-4">{service.icon}</span>
             <h3 className="text-xl font-semibold mb-2 text-center text-gray-800">
