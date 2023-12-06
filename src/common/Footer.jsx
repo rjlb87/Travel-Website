@@ -11,6 +11,7 @@ const Footer = () => {
     <footer className="bg-black text-white p-8">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Explore Section */}
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">Explore</h3>
             <ul>
@@ -20,6 +21,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Connect Section */}
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">Connect</h3>
             <ul>
@@ -29,6 +31,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Follow Us Section */}
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">Follow Us</h3>
             <ul>
@@ -38,25 +41,32 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Legal Section with Image on the right */}
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">Legal</h3>
-            <ul>
-              <li>Terms of Service</li>
-              <li>Privacy Policy</li>
-              <li>Disclaimer</li>
-            </ul>
+            <div className="flex items-center">
+              <ul className="mr-8">
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Disclaimer</li>
+              </ul>
+              <img
+                src="1.png"
+                alt="Footer Image"
+                className="w-60 h-auto object-cover"
+              />
+            </div>
           </div>
         </div>
 
         {/* Subscribe Section */}
-        <div className="mt-8">
+        <div className="">
           <h3 className="text-xl font-bold mb-2">
             Subscribe to Our Newsletter
           </h3>
           <p className="text-gray-400 mb-4">
             Stay updated with our latest travel insights.
           </p>
-
           <form className="flex items-center">
             <input
               type="email"
