@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -55,15 +61,43 @@ const Footer = () => {
             <input
               type="email"
               placeholder="youremail@gmail.com"
-              className="py-2 px-3 rounded-l-md focus:outline-none focus:shadow-outline border border-gray-600"
+              className="py-2 px-3  focus:outline-none focus:shadow-outline border border-gray-600"
             />
             <button
               type="submit"
-              className="bg-[#D47863] hover:bg-opacity-80 py-2 px-4 rounded-r-md transition duration-300 focus:outline-none focus:shadow-outline"
+              className="bg-[#3b9b8e] hover:bg-opacity-80 py-2 px-4 font-semibold transition duration-300 focus:outline-none focus:shadow-outline"
             >
               Subscribe
             </button>
           </form>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="flex items-center mt-4">
+          <a
+            href="https://www.facebook.com/"
+            className="text-white mr-4 hover:text-gray-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFacebook} size="lg" />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            className="text-white mr-4 hover:text-gray-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
+          <a
+            href="https://twitter.com/"
+            className="text-white hover:text-gray-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          </a>
         </div>
       </div>
     </footer>

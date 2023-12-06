@@ -4,8 +4,8 @@ import Navbar from "../common/NavBar";
 import Splash from "../components/Splash";
 import GridImages from "../components/GridImages";
 import AboutUs from "../components/AboutUs.Jsx";
-import Services from "../components/Services";
 import Footer from "./Footer";
+import TopTravelPlaces from "../components/TopTravelPlaces";
 // import ContactUs from "../components/ContactUs";
 
 export default function Dashboard() {
@@ -15,7 +15,7 @@ export default function Dashboard() {
       <Splash />
       <GridImages />
       <AboutUs />
-      <Services />
+      <TopTravelPlaces />
       <Footer />
     </div>
   );

@@ -1,20 +1,20 @@
 import React from "react";
-import beachBackground from "../assets/beach.png"; // Replace with the actual path to your beach background image
+import beachBackground from "../assets/beach.jpg"; // Replace with the actual path to your beach background image
 
 function AboutUs() {
   7;
   return (
     <div
-      className="h-screen flex items-center justify-center bg-gray-100"
+      className="h-screen flex items-center justify-center bg-gray-100 "
       style={{
         background: `url(${beachBackground}) center/cover`,
       }}
     >
-      <div className="container mx-auto p-8 bg-blue-200 bg-opacity-30 rounded-lg shadow-lg max-w-2xl">
+      <div className="container mx-auto p-8  max-w-2xl">
         <h1 className="text-4xl font-extrabold mb-6 text-white text-center">
           Welcome to Our Journey!
         </h1>
-        <p className="text-gray-800 font-semibold">
+        <p className="text-white font-semibold">
           Embark on an extraordinary adventure with us. We craft unique
           experiences that seamlessly blend cultural immersion, breathtaking
           landscapes, and serendipitous moments. Whether you&apos;re a seasoned

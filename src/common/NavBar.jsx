@@ -28,7 +28,7 @@ function NavBar() {
       className={`fixed w-full z-20 top-0 start-0   transition-opacity duration-300 ease-in-out`}
       style={{ opacity: isScrolled ? 0 : 1 }}
     >
-      <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4 bg-[#034752] opacity-15">
+      <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4 opacity-15">
         <a
           href="https://flowbite.com/"
           rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function NavBar() {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-20">
           <button
             type="button"
-            className="text-white  font-medium rounded-lg text-sm px-4 py-2 text-center bg-[#D47863]  hover:bg-opacity-90"
+            className="text-white  font-medium rounded-lg text-sm px-4 py-2 text-center bg-[#3b9b8e]  hover:bg-opacity-90"
           >
             Contact Us
           </button>
@@ -74,7 +74,7 @@ function NavBar() {
           } items-center justify-between w-full md:flex md:w-auto md:order-1`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   dark:border-gray-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4  border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   dark:border-gray-700">
             <li>
               <a
                 href="#"

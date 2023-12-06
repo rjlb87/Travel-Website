@@ -28,17 +28,17 @@ const ImageGrid = () => {
           <img
             src="https://images.unsplash.com/photo-1609861517208-e5b7b4cd4b87?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image 1"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover"
           />
           <img
             src="https://img.freepik.com/premium-photo/girl-travels-by-train-beautiful-places-beautiful-girl-traveling-by-train-among-mountains-travel-by-train-travelling-asia-trains-sri-lanka-railway-transport-railway-transport-asia_135372-796.jpg?w=900"
             alt="Image 2"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover "
           />
           <img
             src="https://media.timeout.com/images/105657780/750/562/image.jpg"
             alt="Image 3"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover "
           />
           {/* Add more images as needed */}
         </div>
